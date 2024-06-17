@@ -1,0 +1,32 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "description": "A real-time markdown editor made with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon & npm run scss",
+    "scss": "sass --watch public/style.scss:public/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GustavoSouza123/node-markdown-editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor",
+    "node",
+    "javascript"
+  ],
+  "author": "Gustavo Souza",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "sass": "^1.77.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
