@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon -e js,mjs,cjs,ejs,json & npm run scss",
+    "dev": "concurrently \"nodemon -e js,mjs,cjs,ejs,json\" \"npm run scss\"",
     "scss": "sass --watch src/scss/style.scss:public/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,6 +27,7 @@
     "sass": "^1.77.5"
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "nodemon": "^3.1.3"
   }
 }
