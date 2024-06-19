@@ -1,9 +1,7 @@
-import * as showdown from 'showdown';
-
 window.onload = () => {
     let converter = new showdown.Converter();
-    let input = document.querySelector('textarea.left');
-    let output = doucment.querySelector('textarea.right');
+    let input = document.querySelector('textarea.input');
+    let output = document.querySelector('div.output');
 
     const convertTextToMarkdown = () => {
         let markdownText = input.value;
