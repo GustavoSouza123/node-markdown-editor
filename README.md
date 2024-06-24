@@ -1,6 +1,6 @@
 # Node Markdown Editor
 
-A real-time markdown editor with Node.js
+A real-time markdown editor made with Node.js
 
 This app is inspired on a [DigitalOcean tutorial](https://www.digitalocean.com/community/tutorials/building-a-real-time-markdown-viewer)
 
